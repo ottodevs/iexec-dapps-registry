@@ -1,10 +1,10 @@
 module.exports = {
-  name: 'MyContract',
+  name: 'TTADEMO',
   app: {
     type: 'DOCKER',
-    envvars: 'XWDOCKERIMAGE=docker-image-name',
+    envvars: 'XWDOCKERIMAGE=ubuntu',
   },
   work: {
-    cmdline: 'cli arguments',
+    cmdline: 'echo helloEthcc',
   }
 };
